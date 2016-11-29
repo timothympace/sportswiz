@@ -1,2 +1,2 @@
-sudo cp -r wiz1 /home/node/
-sudo chown -R node:nogroup /home/node/wiz1/
+sudo cp -r wiz1 /var/www
+sudo chown -R www-data:www-data /var/www/wiz1/

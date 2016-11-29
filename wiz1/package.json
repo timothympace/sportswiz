@@ -1,0 +1,23 @@
+{
+  "name": "wiz1",
+  "version": "1.0.0",
+  "description": "APIs for wiz1.net",
+  "main": "wiz1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node wiz1.js"
+  },
+  "author": "Timothy Pace (timothympace@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "express": "^4.13.1",
+    "jsdom": "*",
+    "requirejs": "^2.1.19"
+  },
+  "private": true,
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  }
+}
