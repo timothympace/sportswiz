@@ -1,0 +1,162 @@
+[
+    {
+        "name" : "Arizona Cardinals",
+        "abbreviation" : "ari",
+        "color" : "red"
+    },
+    {
+        "name" : "Atlanta Falcons",
+        "abbreviation" : "atl",
+        "color" : "red"
+    },
+    {
+        "name" : "Baltimore Ravens",
+        "abbreviation" : "bal",
+        "color" : "purple"
+    },
+    {
+        "name" : "Buffalo Bills",
+        "abbreviation" : "buf",
+        "color" : "blue"
+    },
+    {
+        "name" : "Carolina Panthers",
+        "abbreviation" : "car",
+        "color" : "black"
+    },
+    {
+        "name" : "Chicago Bears",
+        "abbreviation" : "chi",
+        "color" : "orange"
+    },
+    {
+        "name" : "Cincinatti Bengals",
+        "abbreviation" : "cin",
+        "color" : "orange"
+    },
+    {
+        "name" : "Cleveland Browns",
+        "abbreviation" : "cle",
+        "color" : "brown"
+    },
+    {
+        "name" : "Dallas Cowboys",
+        "abbreviation" : "dal",
+        "color" : "blue"
+    },
+    {
+        "name" : "Denver Broncos",
+        "abbreviation" : "den",
+        "color" : "orange"
+    },
+    {
+        "name" : "Detroit Lions",
+        "abbreviation" : "det",
+        "color" : "blue"
+    },
+    {
+        "name" : "Green Bay Packers",
+        "abbreviation" : "gb",
+        "color" : "green"
+    },
+    {
+        "name" : "Houstan Texans",
+        "abbreviation" : "hou",
+        "color" : "red"
+    },
+    {
+        "name" : "Indianapolis Colts",
+        "abbreviation" : "ind",
+        "color" : "blue"
+    },
+    {
+        "name" : "Jacksonville Jaguars",
+        "abbreviation" : "jax",
+        "color" : "yellow"
+    },
+    {
+        "name" : "Kansas City Chiefs",
+        "abbreviation" : "kc",
+        "color" : "red"
+    },
+    {
+        "name" : "Los Angeles Rams",
+        "abbreviation" : "la",
+        "color" : "gold"
+    },
+    {
+        "name" : "Miami Dolphins",
+        "abbreviation" : "mia",
+        "color" : "blue"
+    },
+    {
+        "name" : "Minnesota Vikings",
+        "abbreviation" : "min",
+        "color" : "purple"
+    },
+    {
+        "name" : "New England Patriots",
+        "abbreviation" : "ne",
+        "color" : "blue"
+    },
+    {
+        "name" : "New Orleans Saints",
+        "abbreviation" : "no",
+        "color" : "gold"
+    },
+    {
+        "name" : "New York Giants",
+        "abbreviation" : "nyg",
+        "color" : "blue"
+    },
+    {
+        "name" : "New York Jets",
+        "abbreviation" : "nyj",
+        "color" : "green"
+    },
+    {
+        "name" : "Oakland Raiders",
+        "abbreviation" : "oak",
+        "color" : "black"
+    },
+    {
+        "name" : "Phillidelphia Eagles",
+        "abbreviation" : "phi",
+        "color" : "green"
+    },
+    {
+        "name" : "Pittsburgh Steelers",
+        "abbreviation" : "pit",
+        "color" : "yellow"
+    },
+    {
+        "name" : "San Diego Chargers",
+        "abbreviation" : "sd",
+        "color" : "yellow"
+    },
+    {
+        "name" : "Seattle Seahawks",
+        "abbreviation" : "sea",
+        "color" : "blue"
+    },
+    {
+        "name" : "San Francisco 49ers",
+        "abbreviation" : "sf",
+        "color" : "red"
+    },
+    {
+        "name" : "Tampa Bay Buccaneers",
+        "abbreviation" : "tb",
+        "color" : "red"
+    },
+    {
+        "name" : "Tennesse Titans",
+        "abbreviation" : "ten",
+        "color" : "blue"
+    },
+    {
+        "name" : "Washington Redskins",
+        "abbreviation" : "was",
+        "color" : "red"
+    }
+]

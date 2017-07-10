@@ -12,7 +12,7 @@ requirejs.config({
     //function to requirejs so that node modules
     //are loaded relative to the top-level JS file.
     nodeRequire: require,
-    
+
     paths : {
         'routes' : 'routes'
     }
@@ -32,7 +32,7 @@ function(
 ) { "use strict";
 
     // server options
-    var port        = 8080;
+    var port        = 8081;
 
     // create app
     var app = express();
@@ -43,5 +43,5 @@ function(
 	http.createServer(app).listen(port, function(){
 		console.log('HTTP Listening on port: %s ...', port);
 	});
-    
+
 });

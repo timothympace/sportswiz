@@ -10,10 +10,11 @@
   "author": "Timothy Pace (timothympace@gmail.com)",
   "license": "ISC",
   "dependencies": {
-    "escape-string-regexp": "^1.0.5",
-    "express": "^4.13.1",
-    "jsdom": "*",
-    "requirejs": "^2.1.19"
+    "escape-string-regexp": "*",
+    "express": "*",
+    "imagemagick": "^0.1.3",
+    "jsdom": "^9.8.3",
+    "requirejs": "^2.3.2"
   },
   "private": true,
   "engines": {

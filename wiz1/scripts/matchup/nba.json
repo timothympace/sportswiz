@@ -1,0 +1,153 @@
+[
+    {
+        "name" : "Atlanta Hawks",
+        "abbreviation" : "atl",
+        "color" : "rgb(224, 58, 62)"
+    },
+    {
+        "name" : "Brooklyn Nets",
+        "abbreviation" : "bkn",
+        "color" : "black"
+    },
+    {
+        "name" : "Boston Celtics",
+        "abbreviation" : "bos",
+        "color" : "green"
+    },
+    {
+        "name" : "Charlotte Hornets",
+        "abbreviation" : "cha",
+        "color" : "blue"
+    },
+    {
+        "name" : "Chicago Bulls",
+        "abbreviation" : "chi",
+        "color" : "red"
+    },
+    {
+        "name" : "Cleveland Cavaliers",
+        "abbreviation" : "cle",
+        "color" : "maroon"
+    },
+    {
+        "name" : "Dallas Mavericks",
+        "abbreviation" : "dal",
+        "color" : "blue"
+    },
+    {
+        "name" : "Denver Nuggets",
+        "abbreviation" : "den",
+        "color" : "gold"
+    },
+    {
+        "name" : "Detroit Pistons",
+        "abbreviation" : "det",
+        "color" : "pink"
+    },
+    {
+        "name" : "Golden State Warriors",
+        "abbreviation" : "gsw",
+        "color" : "blue"
+    },
+    {
+        "name" : "Houston Rockets",
+        "abbreviation" : "hou",
+        "color" : "red"
+    },
+    {
+        "name" : "Indiana Pacers",
+        "abbreviation" : "ind",
+        "color" : "yellow"
+    },
+    {
+        "name" : "Los Angeles Clippers",
+        "abbreviation" : "lac",
+        "color" : "white"
+    },
+    {
+        "name" : "Los Angeles Lakers",
+        "abbreviation" : "lal",
+        "color" : "purple"
+    },
+    {
+        "name" : "Memphis Grizzlies",
+        "abbreviation" : "mem",
+        "color" : "blue"
+    },
+    {
+        "name" : "Miami Heat",
+        "abbreviation" : "mia",
+        "color" : "red"
+    },
+    {
+        "name" : "Milwaukee Bucks",
+        "abbreviation" : "mil",
+        "color" : "green"
+    },
+    {
+        "name" : "Minnesota Timberwolves",
+        "abbreviation" : "min",
+        "color" : "green"
+    },
+    {
+        "name" : "New Orleans Pelicans",
+        "abbreviation" : "nop",
+        "color" : "silver"
+    },
+    {
+        "name" : "New York Knicks",
+        "abbreviation" : "nyk",
+        "color" : "orange"
+    },
+    {
+        "name" : "Oklahoma City Thunder",
+        "abbreviation" : "okc",
+        "color" : "orange"
+    },
+    {
+        "name" : "Orlando Magic",
+        "abbreviation" : "orl",
+        "color" : "blue"
+    },
+    {
+        "name" : "Philadelphia 76ers",
+        "abbreviation" : "phi",
+        "color" : "white"
+    },
+    {
+        "name" : "Phoenix Suns",
+        "abbreviation" : "phx",
+        "color" : "orange"
+    },
+    {
+        "name" : "Portland Trail Blazers",
+        "abbreviation" : "por",
+        "color" : "red"
+    },
+    {
+        "name" : "Sacramento Kings",
+        "abbreviation" : "sac",
+        "color" : "purple"
+    },
+    {
+        "name" : "San Antonio Spurs",
+        "abbreviation" : "sas",
+        "color" : "silver"
+    },
+    {
+        "name" : "Toronto Raptors",
+        "abbreviation" : "tor",
+        "color" : "red"
+    },
+    {
+        "name" : "Utah Jazz",
+        "abbreviation" : "uta",
+        "color" : "green"
+    },
+    {
+        "name" : "Washington Wizards",
+        "abbreviation" : "was",
+        "color" : "red"
+    }
+]
+
