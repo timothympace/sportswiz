@@ -1,0 +1,43 @@
+version: "3"
+
+services:
+    nginx:
+        container_name: rtmp-server
+        image: sportswiz-nginx
+        build:
+            context: .
+            dockerfile: .docker/nginx.dockerfile
+        networks:
+            sportswiz-network:
+              aliases:
+                  - nginx
+        volumes:
+            - hls:/tmp/wizhls
+        ports:
+            - "80:80"
+            - "1935:1935"
+
+    node:
+        container_name: app
+        image: sportswiz-node
+        build:
+            context: .
+            dockerfile: ./.docker/node.dockerfile
+        ports:
+            - "8080:8080"
+        networks:
+            sportswiz-network:
+              aliases:
+                  - node
+        volumes:
+            - hls:/usr/src/app/hls
+        #env_file:
+        #    - ./.docker/env/app.dev.env
+        #working_dir: /var/app
+
+volumes:
+    hls:
+
+networks:
+    sportswiz-network:
+        driver: bridge
