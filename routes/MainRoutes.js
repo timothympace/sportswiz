@@ -31,7 +31,7 @@ function(express, wizapi) {
         return next();
     });
     
-    MainRoutes.use('/wizapi', wizapi);
+    MainRoutes.use('/api', wizapi);
     
     return MainRoutes;
 });

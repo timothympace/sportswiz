@@ -16,6 +16,7 @@ services:
         ports:
             - "80:80"
             - "1935:1935"
+        restart: always
 
     node:
         container_name: app
@@ -31,9 +32,7 @@ services:
                   - node
         volumes:
             - hls:/usr/src/app/hls
-        #env_file:
-        #    - ./.docker/env/app.dev.env
-        #working_dir: /var/app
+        restart: always
 
 volumes:
     hls:

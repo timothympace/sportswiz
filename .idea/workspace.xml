@@ -2,85 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dea2694e-6bb6-478c-ac3e-e1df2a166102" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.docker/node.dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WIZ1.bundle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/installWiz1.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/installWizPlex.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/routes/MainRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/routes/wizapi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/atl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/bkn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/bos.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/cha.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/chi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/cle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/dal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/den.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/det.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/gsw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/hou.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/ind.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/lac.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/lal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/mem.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/mia.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/mil.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/min.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/nba.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/nop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/nyk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/okc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/orl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/phi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/phx.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/por.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/sac.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/sas.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/tor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/uta.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NBA/was.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/ari.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/atl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/bal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/buf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/car.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/chi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/cin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/cle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/dal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/den.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/det.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/gb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/hou.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/ind.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/jax.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/kc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/la.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/mia.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/min.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/ne.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/nfl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/nyg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/nyj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/oak.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/phi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/pit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/sd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/sea.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/sf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/tb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/ten.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/NFL/was.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/matchup.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/nba.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/scripts/matchup/nfl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wiz1/wiz1.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/startFfmpeg.sh" afterPath="$PROJECT_DIR$/nginx/startFfmpeg.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/nginx.conf" afterPath="$PROJECT_DIR$/nginx/nginx.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/startFfmpeg.sh" afterPath="$PROJECT_DIR$/nginx/startFfmpeg.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/MainRoutes.js" afterPath="$PROJECT_DIR$/routes/MainRoutes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/wizapi.js" afterPath="$PROJECT_DIR$/routes/wizapi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wiz1.js" afterPath="$PROJECT_DIR$/wiz1.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -115,21 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+            <state relative-caret-position="387">
+              <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -138,18 +56,28 @@
       <file leaf-file-name="startFfmpeg.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx/startFfmpeg.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/MainRoutes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -158,8 +86,8 @@
       <file leaf-file-name="node.dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.docker/node.dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -168,18 +96,38 @@
       <file leaf-file-name="wiz1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiz1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="490">
+              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wizapi.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wizapi.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/wizapi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="334" column="36" lean-forward="true" selection-start-line="334" selection-start-column="36" selection-end-line="334" selection-end-column="36" />
+            <state relative-caret-position="385">
+              <caret line="491" column="37" lean-forward="true" selection-start-line="491" selection-start-column="37" selection-end-line="491" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -210,10 +158,18 @@
       <find>http</find>
       <find>rtmp</find>
       <find>rtmp:</find>
+      <find>w</find>
+      <find>wizapi</find>
+      <find>getChannels</find>
+      <find>.hls</find>
+      <find>.rtmp</find>
     </findStrings>
     <replaceStrings>
       <replace>${RTMP_VER}</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -225,13 +181,16 @@
         <option value="$PROJECT_DIR$/nginx-rtmp-dockerfile-master/nginx.conf" />
         <option value="$PROJECT_DIR$/nginx-rtmp-dockerfile-master/Dockerfile" />
         <option value="$PROJECT_DIR$/nginx/Dockerfile" />
-        <option value="$PROJECT_DIR$/wiz1.js" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/.docker/nginx.dockerfile" />
-        <option value="$PROJECT_DIR$/nginx/startFfmpeg.sh" />
-        <option value="$PROJECT_DIR$/nginx/nginx.conf" />
         <option value="$PROJECT_DIR$/.docker/node.dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/nginx/startFfmpeg.sh" />
+        <option value="$PROJECT_DIR$/routes/MainRoutes.js" />
+        <option value="$PROJECT_DIR$/wiz1.js" />
+        <option value="$PROJECT_DIR$/public/main.js" />
+        <option value="$PROJECT_DIR$/nginx/nginx.conf" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/routes/wizapi.js" />
       </list>
     </option>
@@ -266,7 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,9 +238,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wiz1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wiz1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Docker Deployment.sportswiz">
+  <component name="RunManager" selected="Docker Deployment.sportswiz production">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -421,9 +394,24 @@
       </deployment>
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="sportswiz production" type="docker-deploy" factoryName="Docker Deployment" server-name="Bigmac Docker">
+      <deployment type="docker-compose.yml" path="$PROJECT_DIR$/docker-compose.yml">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="command" value="" />
+          <option name="entrypoint" value="" />
+          <option name="portBindingsExpanded" value="true" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Docker Deployment.nginx" />
       <item index="1" class="java.lang.String" itemvalue="Docker Deployment.sportswiz" />
+      <item index="2" class="java.lang.String" itemvalue="Docker Deployment.sportswiz production" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -444,12 +432,13 @@
       <workItem from="1499733920541" duration="1857000" />
       <workItem from="1500503655492" duration="129000" />
       <workItem from="1500573769702" duration="4749000" />
-      <workItem from="1500578754863" duration="3247000" />
+      <workItem from="1500578754863" duration="9656000" />
+      <workItem from="1500914635320" duration="4826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26673000" />
+    <option name="totallyTimeSpent" value="37908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,23 +451,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="194" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13796735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998997" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26321137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26321137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -505,38 +495,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/startFfmpeg.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.docker/node.dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiz1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -814,22 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/startFfmpeg.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.docker/nginx.dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -838,34 +780,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiz1.js">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/wizapi.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/requirejs/bin/r.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="334" column="36" lean-forward="true" selection-start-line="334" selection-start-column="36" selection-end-line="334" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/startFfmpeg.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/MainRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.docker/node.dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="387">
+          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiz1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/wizapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="491" column="37" lean-forward="true" selection-start-line="491" selection-start-column="37" selection-end-line="491" selection-end-column="37" />
           <folding />
         </state>
       </provider>

@@ -38,6 +38,7 @@ function(
     var app = express();
 
     // Register all the URLs this server will respond to.
+    app.use(express.static('public'));
     app.use(MainRoutes);
 
 	http.createServer(app).listen(port, function(){

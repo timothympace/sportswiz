@@ -110,7 +110,7 @@ function(
         };
     })();
 
-    function getChannels() {
+    function getChannels(host) {
         return new Promise(function(resolve, reject) {
             jsdom.env({
                 url : 'http://www.wiz1.net/lag10_home.php',
@@ -157,8 +157,8 @@ function(
                                 sport : sport,
                                 title : title,
                                 channel : ch,
-                                rtmp : 'rtmp://localhost:1935/wiz/' + ch,
-                                hls : 'http://localhost:8080/wizapi/hls/' + ch + '.m3u8'
+                                rtmp : 'rtmp://' + host + ':1935/wiz/' + ch,
+                                hls : 'http://' + host + '/sportswiz/api/hls/' + ch + '.m3u8'
                             };
 
                             channels.push(channel);
@@ -288,8 +288,8 @@ function(
         });
     }
 
-    function getPlaylist() {
-        return getChannels().then(function(channels) {
+    function getPlaylist(host) {
+        return getChannels(host).then(function(channels) {
             playlist = '#EXTM3U\n';
             for (var i = 0; i < channels.length; i++) {
                 var title = channels[i].title;
@@ -380,7 +380,8 @@ function(
     }
 
     wizapi.get('/channels', function(req, res) {
-        getChannels()
+        var host = req.headers.host;
+        getChannels(host)
         .then(function(links) {
             res.status(200).send(links);
         })
@@ -390,7 +391,7 @@ function(
     });
 
     wizapi.get('/channels/:ch', function(req, res) {
-        var ch = req.params.ch
+        var ch = req.params.ch;
         getChannel(ch)
         .then(function(value) {
             res.status(200).send(value);
@@ -429,7 +430,8 @@ function(
     });
 
     wizapi.get('/plex/playlist', function(req, res) {
-        getPlaylist()
+        var host = req.headers.host;
+        getPlaylist(host)
         .then(function(playlist) {
             res.status(200).send(playlist);
         })
@@ -475,7 +477,7 @@ function(
     });
 
     wizapi.get('/channels/:ch/rtmp', function(req, res) {
-        var ch = req.params.ch
+        var ch = req.params.ch;
         getChannel(ch)
         .then(function(channel) {
             res.status(200).send(`${channel.rtmpUrl} playpath=${channel.playPath} pageURL=${channel.pageUrl} swfUrl=${channel.swfUrl}`);
