@@ -1,1 +1,1 @@
-wiz1.net thief
+wiz1.net API

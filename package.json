@@ -1,24 +1,49 @@
 {
-  "name": "wiz1",
-  "version": "1.0.0",
-  "description": "APIs for wiz1.net",
-  "main": "wiz1.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node wiz1.js"
-  },
-  "author": "Timothy Pace (timothympace@gmail.com)",
-  "license": "ISC",
-  "dependencies": {
-    "escape-string-regexp": "*",
-    "express": "*",
-    "imagemagick": "^0.1.3",
-    "jsdom": "^9.8.3",
-    "requirejs": "^2.3.2"
-  },
-  "private": true,
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  }
+    "name": "wiz1",
+    "version": "1.0.0",
+    "description": "APIs for wiz1.net",
+    "main": "wiz1.js",
+    "scripts": {
+        "build": "webpack --config webpack.prod.config.js",
+        "dev": "webpack-dev-server --hot --inline",
+        "lint": "eslint src/**",
+        "lint:watch": "esw -w src/**",
+        "start": "npm run build && NODE_ENV=production node wiz1.js",
+        "test": "mocha --compilers js:babel-core/register ./test/**/*.spec.js --require ignore-styles"
+    },
+    "author": "Timothy Pace (timothympace@gmail.com)",
+    "license": "ISC",
+    "dependencies": {
+        "escape-string-regexp": "*",
+        "express": "*",
+        "imagemagick": "^0.1.3",
+        "jsdom": "^9.8.3",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "requirejs": "^2.3.2"
+    },
+    "private": true,
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "eslint": "^3.13.1",
+        "eslint-config-airbnb": "^14.0.0",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-jsx-a11y": "^3.0.2",
+        "eslint-plugin-react": "^6.9.0",
+        "file-loader": "^0.9.0",
+        "html-webpack-plugin": "^2.24.1",
+        "react-hot-loader": "^1.3.1",
+        "react-router": "^3.0.2",
+        "webpack": "^3.4.0",
+        "webpack-dev-middleware": "^1.10.1",
+        "webpack-dev-server": "^2.6.1",
+        "webpack-hot-middleware": "^2.18.0"
+    }
 }

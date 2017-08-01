@@ -32,6 +32,7 @@ services:
                   - node
         volumes:
             - hls:/usr/src/app/hls
+            #- ./public:/usr/src/app/public
         restart: always
 
 volumes:
